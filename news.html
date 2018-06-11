@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 
@@ -22,11 +22,20 @@
   
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
   <header>
     <div id="header_in" class="container">
       <div class="row">
@@ -135,15 +144,10 @@
                         </li>
                     </ul>
                 </div>
+                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
             </div>
         </div>
       </div>
-        <div class="fb-page" data-href="https://www.facebook.com/akira.hotta.90" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-            <span style="vertical-align: bottom; width: 180px; height: 300px;">
-            <iframe name="f3a23b67bb3efb4" width="1000px" height="300px" frameborder="0" allowTransparency="true" frameborder="0" allowTransparency="true" scrolling="no" allow="encrypted-media" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fakira.hotta.90&tabs=timeline&width=0&height=0&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border: none; visibility: visible; width: 180px; height: 300px;" >
-            </iframe>
-            </span>
-          </div>
     </div>
 <!-- contents-->
 
@@ -193,16 +197,7 @@
     </div>
 </footer>
 <!-- footer -->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-  $(function(){
-    $(document).ready(function(){
-      $("#sp_navi_btn").click(function(){
-        $(this).next().slideToggle();
-      });
-    });
-  });
-</script>
+
 
 </body>
     

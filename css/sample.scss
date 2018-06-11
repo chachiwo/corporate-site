@@ -485,8 +485,7 @@ h1{
     background-image: url("../images/news/sub_cover@2x.jpg");
   }
 
-  @media (min-width: 550px) {
-
+  
   h2 {
     text-align: center;
     color: white;
@@ -497,7 +496,7 @@ h1{
     letter-spacing: 0.2rem;
     }
    
-  }
+  
   // min-width: 550px
 }
 
@@ -610,8 +609,10 @@ h1{
     text-decoration: none;
 }
 
-.fb_iframe_widget iframe {
-    position: absolute;
+@media (max-width: 550px){
+#contents #sidebar .pc_sidemenu {
+    display: none;
+}
 }
 
 /*
@@ -745,3 +746,9 @@ h1{
     font-size: 14px;
     font-size: 1.4rem;
 }
+
+/* 
+https://github.com/chachiwo/corporate-site.git
+git remote add origin https://github.com/chachiwo/corporate-site.git
+git push origin master
+--------------------------------------------------------------------------*/
