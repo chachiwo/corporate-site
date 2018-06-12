@@ -510,7 +510,7 @@ h1{
  }
  
  @media(max-width: 549px){
- h2 {
+#sub_cover h2 {
     text-align: center;
     color: white;
     font-size: 16px;
@@ -765,6 +765,7 @@ h1{
 }
 
 /* 
+sass --watch css/sample.scss:css/sample.css
 https://github.com/chachiwo/corporate-site.git
 git remote add origin https://github.com/chachiwo/corporate-site.git
 git push origin master
